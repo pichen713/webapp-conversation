@@ -1,6 +1,11 @@
 {
   "extends": [
     "@antfu",
+    "@antfu/eslint-config",
+    "@antfu/eslint-config/vue",
+    "@antfu/eslint-config/ts",
+    "next",
+    "next/core-web-vitals",
     "plugin:react-hooks/recommended"
   ],
   "rules": {
